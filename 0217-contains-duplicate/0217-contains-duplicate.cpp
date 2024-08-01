@@ -3,7 +3,9 @@ public:
     bool containsDuplicate(vector<int>& nums) {
         unordered_set<int> numSet;
 
-        copy(nums.begin(), nums.end(), inserter(numSet, numSet.begin()));
+        for(int num : nums){
+            numSet.insert(num);
+        };
         return numSet.size() < nums.size();
     }
 };
