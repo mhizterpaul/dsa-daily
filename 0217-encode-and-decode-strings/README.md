@@ -21,7 +21,7 @@
 <p><strong>Constraints:</strong></p>
 
 <ul>
-	<li><code>0 &lt;<= strs.length &lt;< 100</code></li>
-	<li><code>0 &lt;<= strs[i].length &lt;< 200</code></li>
+	<li><code>0 &lt;= strs.length &lt; 100</code></li>
+	<li><code>0 &lt;= strs[i].length &lt; 200</code></li>
 	<li><code>strs[i]&lt;contains only UTF-8 characters.</code></li>
 </ul>
